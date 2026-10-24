@@ -5,7 +5,6 @@ import express from "express"
 import cors from "cors"
 import dotenv from "dotenv";
 dotenv.config()
-
 import notesRoutes from "./routes/notesRoutes.js"
 import { connectDB } from "./config/db.js";
 
